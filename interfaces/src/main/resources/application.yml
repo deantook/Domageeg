@@ -1,0 +1,9 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    username: root
+    password: dean123
+    url: jdbc:mysql://43.142.122.210:3306/doma?useUnicode=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
