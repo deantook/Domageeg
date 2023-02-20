@@ -15,6 +15,14 @@
     <artifactId>Domageeg</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>application</module>
+        <module>common</module>
+        <module>domain</module>
+        <module>infrastructure</module>
+        <module>interfaces</module>
+        <module>rpc</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
